@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn-container {
+    margin: 1rem;
+}
+
+#btn-changer,
+#bg-changer,
+#refresh-button {
+    padding: 0.25rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 11px #808080;
+}
+
+#btn-changer:hover,
+#bg-changer,
+#refresh-button:hover {
+    cursor: pointer;
+}
